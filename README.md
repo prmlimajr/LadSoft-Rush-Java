@@ -24,3 +24,14 @@ Curso promovido pela Liga Acadêmica de Desenvolvimento de Software da Uninassau
 - Concatenação
 - Exercícios
 
+## Aula 03 - Estruturas Condicionais
+- Escopo de bloco de comando e indentação
+- Estrutura de condição if
+- Estrutura de condição else
+- if/else aninhados
+- Estrutura de condição else if
+- Estrutura de condição switch case
+- Exercícios
+
+
+
