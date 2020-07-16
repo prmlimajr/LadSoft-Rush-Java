@@ -33,5 +33,11 @@ Curso promovido pela Liga Acadêmica de Desenvolvimento de Software da Uninassau
 - Estrutura de condição switch case
 - Exercícios
 
+## Aula 04 - Estruturas de Repetição
+- Estruturas do while
+- Estruturas while
+- Estruturas for
+- Exercícios
+- PROJETO FINAL
 
 
