@@ -1,0 +1,81 @@
+import java.util.Random;
+import java.util.Scanner;
+
+public class pedraPapelTesoura {
+
+	public static void main(String[] args) {
+
+		int jogada;
+		int jogadaComputador;
+		String computador, jogador;
+		jogador = "a";
+		computador = "a";
+		
+		Scanner scan = new Scanner(System.in);
+		Random random = new Random();
+		
+		jogadaComputador = random.nextInt(3);
+		
+		switch(jogadaComputador) {
+		case 0:
+			computador = "pedra";
+			break;
+		case 1: 
+			computador = "papel";
+			break;
+		case 2:
+			computador = "tesoura";
+			break;
+		}
+		
+		System.out.println("Escolha sua jogada: ");
+		System.out.println("0 - Pedra");
+		System.out.println("1 - Papel");
+		System.out.println("2 - Tesoura");
+		jogada = scan.nextInt();
+		
+		switch(jogada) {
+		case 0:
+			jogador = "pedra";
+			break;
+		case 1: 
+			jogador = "papel";
+			break;
+		case 2:
+			jogador = "tesoura";
+			break;
+		}
+		
+		if (jogador == "pedra" && computador == "tesoura") {
+			System.out.println("Você escolheu " + jogador + " e o computador escolheu " + computador);
+			System.out.println("Jogador Venceu.");
+		} else if (jogador == "pedra" && computador == "papel") {
+			System.out.println("Você escolheu " + jogador + " e o computador escolheu " + computador);
+			System.out.println("Computador Venceu.");
+		} else if (jogador == "pedra" && computador == "pedra") {
+			System.out.println("Você escolheu " + jogador + " e o computador escolheu " + computador);
+			System.out.println("Empate.");
+		} else if(jogador == "papel" && computador == "tesoura") {
+			System.out.println("Você escolheu " + jogador + " e o computador escolheu " + computador);
+			System.out.println("Computador Venceu.");
+		} else if (jogador == "papel" && computador == "papel") {
+			System.out.println("Você escolheu " + jogador + " e o computador escolheu " + computador);
+			System.out.println("Empate");
+		} else if (jogador == "papel" && computador == "pedra") {
+			System.out.println("Você escolheu " + jogador + " e o computador escolheu " + computador);
+			System.out.println("Jogador Venceu.");
+		} else if (jogador == "tesoura" && computador == "tesoura") {
+			System.out.println("Você escolheu " + jogador + " e o computador escolheu " + computador);
+			System.out.println("Empate.");
+		} else if (jogador == "tesoura" && computador == "papel") {
+			System.out.println("Você escolheu " + jogador + " e o computador escolheu " + computador);
+			System.out.println("Jogador Venceu");
+		} else {
+			System.out.println("Você escolheu " + jogador + " e o computador escolheu " + computador);
+			System.out.println("Computador Venceu.");
+		}
+		
+		
+		}
+
+	}
