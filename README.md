@@ -40,4 +40,6 @@ Curso promovido pela Liga Acadêmica de Desenvolvimento de Software da Uninassau
 - Exercícios
 - PROJETO FINAL
 
-
+## Aula 05 - Projeto Final
+- Jogo da Adivinhação
+- (Bônus) - Jogo Pedra, Papel e Tesoura
